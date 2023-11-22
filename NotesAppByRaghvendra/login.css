@@ -1,0 +1,77 @@
+:root{
+    font-size: 16px;
+}
+.desc{
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(12, 14, 14);
+}
+.deshead{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.title{
+    font-size: 20px;
+        border-bottom: 2px solid black;
+        font-style: italic;
+        color: rgb(12, 14, 14);
+}
+.fa-solid{
+    font-size: 20px;
+    color:black;
+}
+@media (max-width:600px){
+    .container{
+        font-size: 1rem;
+    }
+         .title {
+             font-size: 0.9rem;
+             border-bottom: 2px solid black;
+             font-style: italic;
+             color: rgb(12, 14, 14);
+         }
+    h2{
+        font-size: 1.5rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    span{
+        font-size: 0.9rem;
+    }
+    .btn{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .nbtn{
+        font-size: 0.7rem;
+        font-weight: 400;
+        width: 50px;
+    }
+    .desc{
+        font-size: 0.9rem;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+        .deshead {
+            font-size: 0.9rem;
+            border-bottom: 2px solid black;
+        }
+        .onHover {
+            cursor: pointer;
+        }
+                .fa-solid {
+                    font-size: 0.9rem;
+                    color: black;
+                }
+                               
+                                
+}
+
+.onHover {
+    cursor: pointer;
+}
